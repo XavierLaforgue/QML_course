@@ -5,7 +5,7 @@ followed by a classical SVM to classify the data.
 """
 
 import numpy as np
-from pennylane import numpy as pnp
+# from pennylane import numpy as pnp
 import pennylane as qml
 import matplotlib.pyplot as plt
 
