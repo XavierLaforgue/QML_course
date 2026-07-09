@@ -74,8 +74,10 @@ def cost(param):
 
 
 # choose some initial parameters
-param_ini = [1.23, 0.456]  # [2.0, 0.0]
-print(f"Initial gate parameters: theta_0={param_ini[0]}, theta_1={param_ini[1]}")
+param_ini = [1.23, 0.456]
+# param_ini = [2.0, 0.0]
+print(f"Initial gate parameters:\
+       theta_0={param_ini[0]}, theta_1={param_ini[1]}")
 
 # Optimisation parameters
 max_iterations = 100
