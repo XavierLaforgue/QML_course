@@ -140,6 +140,6 @@ ax2.tick_params()
 # Save the figure
 plt.legend()
 plt.subplots_adjust(wspace=0.3, bottom=0.2)
-plt.savefig('plot-first-qnn.png', transparent=True, bbox_inches='tight',
+plt.savefig('plot-first-qnn.png', transparent=False, bbox_inches='tight',
             dpi=600)
 plt.show()
